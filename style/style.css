@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*Reset 시작*/
+*{
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul { list-style: none;}
+
+a         {text-decoration: none;}
+a:link    {    color: #222;    }
+a:visited {    color: #222;    }
+a:hover   {    color: #222;    }
+a:active  {    color: #222;    }
+
+img {vertical-align: middle;}
+
+
+/*Reset 끝*/
+
+/*div#wrap 시작*/
+div#wrap{
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+/*div#wrap 끝*/
+
+/*GNB 메뉴 시작*/
+#gnb{
+/*    border: 1px solid #000;*/
+    padding: 10px;
+}
+
+
+#gnb #mainMenu{
+/*    border: 1px solid #08f;*/
+    display: inline-block;
+}
+
+nav#gnb a{
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+
+}
+
+nav#gnb #mainMenu>li>a{
+        background-color: #08f;
+font-weight: bold;
+}
+
+nav#gnb #mainMenu>li{
+    border: 1px solid #aaa;
+    float: left;
+}
+
+#gnb #mainMenu::after{
+    content: "";
+    display: block;
+    height: 48px;
+/*    border: 1px solid #f00;*/
+}
+
+#gnb a:hover{
+    font-weight: bold;
+    background-color: #08f;
+}
+
+#gnb ul.subMenu{
+    display: none;
+}
+
+/*GNB 메뉴 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
